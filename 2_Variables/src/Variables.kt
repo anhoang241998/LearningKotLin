@@ -46,5 +46,10 @@ fun main() {
     //Cach 3: long bien ben ngoai vao string
     val ageString = "i am $age"
     val ageString2 = "i am ${age + 1}"
-    print(ageString2)
+    println(ageString2)
+
+    //bài tập Kotlin bài 2:
+    var myAge = 22
+    val myFullName: String = "My name is Nguyen Hoang An. I am $myAge years old "
+    print(myFullName)
 }
